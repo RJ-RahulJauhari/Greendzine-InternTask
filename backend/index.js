@@ -11,7 +11,7 @@ const app = express();
 const PORT = 5000;
 
 app.use(bodyPaser.json());
-app.use(cors({ origin: ['http://localhost:5173'] }))
+app.use(cors({ origin: ['http://localhost:5173','https://greendzine-interntask.onrender.com'] }))
 app.use('/api/v1', EmployeeRouter);
 app.use('/api/v1', ProductivityRouter);
 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../LoginPage/LoginPage.scss'
 import {useNavigate} from 'react-router-dom';
+import logo from '../../assets/logos/logo.png'
 
 const LoginPage = () => {
 
@@ -28,7 +29,7 @@ const LoginPage = () => {
     <div className='login full-width page-height'>
     <div className='logo-container pad-inline full-height flex-col flex center'>
         <div className='logo flex-col center sp-2'>
-            <img className='logo-image' src="src\assets\logos\logo-large.png" alt="Logo" />
+            <img className='logo-image' src={logo} alt="Logo" />
             <p className='tag-line'>We are Electric</p>
         </div>
         <div className='login-form flex-col wrap sp-25'>

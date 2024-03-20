@@ -1,0 +1,10 @@
+.home {
+    min-height: 100vh;
+    max-height: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;
+    .progress-bars {}
+}
